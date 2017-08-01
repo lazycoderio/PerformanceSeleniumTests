@@ -8,11 +8,7 @@
             </run>
         </groups>
         <classes>
-            <class name="localbrowsers.Chrome"/>
-            <class name="localbrowsers.Edge"/>
-            <class name="localbrowsers.Firefox"/>
-            <class name="localbrowsers.PhantomJS"/>
-            <class name="localbrowsers.Safari"/>
+            <class name="tests.TestSuite"/>
         </classes>
     </test> <!-- javajenkins -->
 </suite> <!-- Custom suite -->

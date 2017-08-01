@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="basic-selenium-java" />
         <module name="javajenkins" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="performance-selenium-java" target="1.8" />
       <module name="javajenkins" target="1.5" />
     </bytecodeTargetLevel>
   </component>
