@@ -8,11 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="basic-selenium-java" />
         <module name="javajenkins" />
+        <module name="performance-selenium-java" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="performance-selenium-java" target="1.8" />
       <module name="javajenkins" target="1.5" />
+      <module name="performance-selenium-java" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
